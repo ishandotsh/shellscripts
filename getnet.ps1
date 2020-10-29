@@ -1,4 +1,4 @@
-﻿$networkname = "also dingus"
+﻿$networkname = ""
 
 $state = $(netsh wlan show interfaces | findstr "State") | Out-String
 $notconnected = $state.Contains("disconnected") -or $state.Contains("authenticating") `
