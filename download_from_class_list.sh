@@ -1,0 +1,1 @@
+python3 ./downloader.py -data_root ./imagenet -use_class_list True -class_list n00007846 n00015388 n00017222 n00021265 n00442115 -images_per_class 100
